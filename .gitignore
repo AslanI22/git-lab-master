@@ -1,0 +1,14 @@
+cat > .gitignore << 'EOF'
+# Зависимости
+node_modules/
+__pycache__/
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+EOF
